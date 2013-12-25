@@ -5,6 +5,7 @@ setup(
     name='Flask-Celery3',
     version='1.0',
     license='MIT',
+    url='https://github.com/jaapz/flask-celery3',
     author='Jaap Broekhuizen',
     author_email='jaapz.b@gmail.com',
     description='Add Celery3 integration to your Flask apps.',
