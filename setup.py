@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='Flask-Celery3',
-    version='1.0',
+    version='0.1',
     license='MIT',
     url='https://github.com/jaapz/flask-celery3',
     author='Jaap Broekhuizen',
