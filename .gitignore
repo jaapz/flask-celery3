@@ -1,0 +1,5 @@
+build
+dist
+*.pyc
+tags
+Flask_Celery3.egg-info
