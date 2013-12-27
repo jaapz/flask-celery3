@@ -21,6 +21,18 @@ Just do
 
     pip install Flask-Celery3
 
+Usage
+-----
+After installing, in your app:
+
+    from flask import Flask
+    from flask.ext.celery3 import make_celery
+    app = Flask(__name__)
+    celery = make_celery(app)
+
+Make sure you have your broker up and running and correctly configured in your
+flask config.
+
 
 More info
 ---------
