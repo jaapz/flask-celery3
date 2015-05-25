@@ -21,6 +21,16 @@ Just do
 
     pip install Flask-Celery3
 
+
+Configuration
+-------------
+There is one configuration variable used specifically by this plugin to set up
+the celery broker: `CELERY_BROKER_URL`. It defaults to `redis://localhost:6379`.
+
+See the [Celery documentation][1] for all other available configuration
+variables.
+
+
 Usage
 -----
 After installing, in your app:
@@ -43,3 +53,6 @@ http://flask.pocoo.org/docs/patterns/celery/
 License
 -------
 This plugin is MIT-licensed. See the LICENSE file.
+
+
+[1]: http://celery.readthedocs.org/en/latest/configuration.html
